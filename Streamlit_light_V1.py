@@ -178,7 +178,8 @@ if page == pages[1] :
             st.subheader("Every years from 2013 to 2019 share a comparable profile")
             st.warning("Missing values are displayed in light pink. We note the absence of TCO and TCH indicators that enable comparisons of energy production sectors among region. They were introduced from 2020 only.", 
                        icon=":material/percent:")
-            st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\Heatmap_nans_1.png")
+            #st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\Heatmap_nans_1.png")
+            st.image(r"Heatmap_nans_1.png")
 
         with tab2:
             st.subheader("2020 has less missing values")
