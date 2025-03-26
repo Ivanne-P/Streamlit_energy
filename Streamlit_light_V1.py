@@ -551,8 +551,7 @@ if page == pages[5]:
 
     @st.cache_resource
     def load_scaler():
-        # with open('scaler.pkl', 'rb') as scaler_file:
-        with lzma.open('scaler.pkl.xz', 'rb') as scaler_file:  # MODIFICATION: open compressed .xz file
+        with open('scaler.pkl', 'rb') as scaler_file:
             scaler = pickle.load(scaler_file)
         return scaler
 
