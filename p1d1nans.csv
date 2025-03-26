@@ -1,0 +1,33 @@
+Translation,Missing Values,Ratio
+RegionID,0,0 %
+Region,0,0 %
+Nature,0,0 %
+Date,0,0 %
+Hour,0,0 %
+Date_Hour,0,0 %
+Consumption,12,0 %
+Thermal,12,0 %
+Nuclear,701287,33 %
+Wind,0,0 %
+Solar,12,0 %
+Hydro,12,0 %
+Pumping consumption,736327,35 %
+Bioenergy,12,0 %
+Exchange_balance,12,0 %
+Battery storage,1683084,79 %
+Déstockage batterie,1683084,79 %
+Eolien terrestre,1683084,79 %
+Eolien offshore,1683084,79 %
+Thermal_TCO,1472256,69 %
+Thermal_TCH,1472256,69 %
+Nuclear_TCO,1560096,74 %
+Nuclear_TCH,1742736,82 %
+Wind_TCO,1472256,69 %
+Wind_TCH,1472256,69 %
+Solar_TCO,1472256,69 %
+Solar_TCH,1472256,69 %
+Hydro_TCO,1472256,69 %
+Hydro_TCH,1472256,69 %
+Bioenergy_TCO,1472256,69 %
+Bioenergy_TCH,1472256,69 %
+Column 30,2121408,100 %

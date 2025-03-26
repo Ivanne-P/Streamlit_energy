@@ -1,0 +1,1 @@
+{"TMin": {"min": 0.0, "max": 0.9999999999999998}, "TMax": {"min": 0.0, "max": 1.0}, "TAvg": {"min": 0.0, "max": 0.9999999999999998}, "DJU": {"min": 0.0, "max": 1.0}, "days_since_start": {"min": 0.0, "max": 1.0}, "Hour_sin": {"min": 0.0, "max": 1.0}, "Hour_cos": {"min": 0.0, "max": 1.0}, "Hour_numerical": {"min": 0.0, "max": 1.0}}
