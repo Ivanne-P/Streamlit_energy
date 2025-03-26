@@ -190,7 +190,7 @@ if page == pages[1] :
             st.subheader("From 2021 nuclear production is set to zero in the 5 nuclear-free regions")
             st.warning("The remaining missing values reflect the impossibility to compute the Charge Rate (TCH) of nuclear production in nuclear-free regions.", 
                        icon=":material/percent:")
-            st.image("Heatmap_nans_3.png"), width=800
+            st.image("Heatmap_nans_3.png", width=800)
 
     # Temperature dataset 
     st.subheader("Regional daily temperature (Weathernews France)")
