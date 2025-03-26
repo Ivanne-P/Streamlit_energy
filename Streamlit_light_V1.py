@@ -185,13 +185,13 @@ if page == pages[1] :
             st.subheader("2020 has less missing values")
             st.warning("We found why Nuclear production had missing values in 33% of the rows. They correspond to regions without any nuclear facility.", 
                        icon=":material/map_search:")
-            st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\Heatmap_nans_2.png")
+            st.image(r"Heatmap_nans_2.png")
 
         with tab3:
             st.subheader("From 2021 nuclear production is set to zero in the 5 nuclear-free regions")
             st.warning("The remaining missing values reflect the impossibility to compute the Charge Rate (TCH) of nuclear production in nuclear-free regions.", 
                        icon=":material/percent:")
-            st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\Heatmap_nans_3.png")
+            st.image(r"Heatmap_nans_3.png")
 
     # Temperature dataset 
     st.subheader("Regional daily temperature (Weathernews France)")
@@ -237,15 +237,15 @@ if page == pages[1] :
 
     tab1, tab2, tab3, tab4, tab5 = st.tabs(["Start", "Structure", "Variable classes", "Missing values", "Quality check"])
     with tab1:
-        st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\Image1.png", width=800) 
+        st.image(r"Image1.png", width=800) 
     with tab2:
-        st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\Image2.png", width=800)         
+        st.image(r"Image2.png", width=800)         
     with tab3:
-        st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\Image3.png", width=800)         
+        st.image(r"Image3.png", width=800)         
     with tab4:
-        st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\Image4.png", width=800)          
+        st.image(r"Image4.png", width=800)          
     with tab5:
-        st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\Image5.png", width=800) 
+        st.image(r"Image5.png", width=800) 
 
     st.warning("Only the main dataset needs cleaning at this stage.", 
             icon=":material/info:")
@@ -261,13 +261,13 @@ if page == pages[2] :
 
     tab1, tab2, tab3, tab4 = st.tabs(["Feature creation", "Transformation", "Encoding and feature selection", "Normalisation"])
     with tab1:
-        st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\feature_1.png", width=800) 
+        st.image(r"feature_1.png", width=800) 
     with tab2:
-        st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\feature_2.png", width=800)         
+        st.image(r"feature_2.png", width=800)         
     with tab3:
-        st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\feature_3.png", width=800)         
+        st.image(r"feature_3.png", width=800)         
     with tab4:
-        st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\feature_4.png", width=800)          
+        st.image(r"feature_4.png", width=800)          
 
     # STATISTICAL TESTS ON FEATURES
     st.subheader("Statistical tests on features") 
@@ -276,19 +276,19 @@ if page == pages[2] :
     with tab5:
         st.warning("This heatmap has label encoded regions. It does not include the seasons and the encoded months, in order to ensure legibility.",
                    icon=":material/apps:")
-        st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\Tests_1.png", width=800) 
+        st.image(r"Tests_1.png", width=800) 
     with tab6:
         st.warning("Now we focus on the encoded seasons and the encoded months.",
                    icon=":material/apps:")
-        st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\Tests_2.png", width=800)         
+        st.image(r"Tests_2.png", width=800)         
     with tab7:
         st.warning("This heatmap has one hot encoded regions.",
                    icon=":material/apps:")
-        st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\Tests_3.png", width=800)         
+        st.image(r"Tests_3.png", width=800)         
     with tab8:
         st.success("Following the Shapiro-Willcox test, the numerical temperature-related values are not normally distributed.",
                    icon=":material/search_insights:")
-        st.image(r"C:\Users\IvannePoussier\Documents\Streamlit_energy\Tests_4.png", width=800)
+        st.image(r"Tests_4.png", width=800)
 
 
 # PAGE 3 # DATAVISUZALIZATION
