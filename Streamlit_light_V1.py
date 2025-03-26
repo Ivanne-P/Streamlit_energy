@@ -11,6 +11,7 @@ import numpy as np
 # from plotly.subplots import make_subplots
 import plotly.express as px
 import io
+import lzma  # ADDITION: required to read .xz compressed files
 import pickle
 import json
 from PIL import Image
@@ -543,13 +544,15 @@ if page == pages[5]:
 
     @st.cache_resource
     def load_model():
-        with open('model_rf.pkl', 'rb') as model_file:
+        # with open('model_rf.pkl', 'rb') as model_file:
+        with lzma.open('model_rf.pkl.xz', 'rb') as model_file:  # MODIFICATION: open compressed .xz file
             model = pickle.load(model_file)
         return model
 
     @st.cache_resource
     def load_scaler():
-        with open('scaler.pkl', 'rb') as scaler_file:
+        # with open('scaler.pkl', 'rb') as scaler_file:
+        with lzma.open('scaler.pkl.xz', 'rb') as scaler_file:  # MODIFICATION: open compressed .xz file
             scaler = pickle.load(scaler_file)
         return scaler
 
