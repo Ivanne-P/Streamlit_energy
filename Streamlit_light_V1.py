@@ -178,19 +178,19 @@ if page == pages[1] :
             st.subheader("Every years from 2013 to 2019 share a comparable profile")
             st.warning("Missing values are displayed in light pink. We note the absence of TCO and TCH indicators that enable comparisons of energy production sectors among region. They were introduced from 2020 only.", 
                        icon=":material/percent:")
-            st.image("Heatmap_nans_1.png", width=800)
+            st.image("heatmap_nans_1.png", width=800)
 
         with tab2:
             st.subheader("2020 has less missing values")
             st.warning("We found why Nuclear production had missing values in 33% of the rows. They correspond to regions without any nuclear facility.", 
                        icon=":material/map_search:")
-            st.image("Heatmap_nans_2.png", width=800)
+            st.image("heatmap_nans_2.png", width=800)
 
         with tab3:
             st.subheader("From 2021 nuclear production is set to zero in the 5 nuclear-free regions")
             st.warning("The remaining missing values reflect the impossibility to compute the Charge Rate (TCH) of nuclear production in nuclear-free regions.", 
                        icon=":material/percent:")
-            st.image("Heatmap_nans_3.png", width=800)
+            st.image("heatmap_nans_3.png", width=800)
 
     # Temperature dataset 
     st.subheader("Regional daily temperature (Weathernews France)")
